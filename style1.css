@@ -1,0 +1,562 @@
+body{
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+
+.title {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.313;
+  color: #000000;
+}
+
+
+.course-catalog {
+  border-radius: 3px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding: 26.5px 0 612px 0;
+  width: 1440px;
+  box-sizing: border-box;
+}
+
+.top-navbar {
+  margin: 0 39.5px 26.5px 38px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1440px;
+  height: 89;
+  box-sizing: border-box;
+}
+
+.vector-button {
+  background-color: transparent; /* Make button background transparent */
+  border: none; /* Remove button border */
+  padding: 0; /* Remove default padding */
+}
+
+.vector {
+  width: 21px;
+  height: 18.4px;
+}
+
+/* Change color on hover */
+.vector-button:hover .vector {
+  cursor: pointer; /* Change fill color on hover */
+}
+
+.group-9414-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+.group-9414-button:hover,
+.group-9414-button:focus {
+  cursor: pointer; /* Change cursor to hand pointer on hover and focus */
+}
+.group-9414 {
+  margin: 2.7px 0;
+  width: 208px;
+  height: 30.6px;
+}
+.frame-109 {
+  margin: 7px 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.phphone-fill {
+  margin: 1.7px 9.2px 2.4px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  box-sizing: border-box;
+}
+.vector-240 {
+  width: 18px;
+  height: 18px;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.phone-container {
+  margin: 1.7px 9.2px 2.4px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; /* Align items vertically */
+}
+
+.phone-button {
+  display: flex;
+  align-items: center;
+  background-color: transparent; /* Transparent background initially */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.phone-button:hover {
+  background-color: #004A93; /* Blue color on hover */
+}
+
+.phone-button:hover .phone-number {
+  color: white; /* Change font color to white on hover */
+}
+.phone-button:hover .phone-icon {
+  filter:invert(100%); /* Invert the color of the phone icon to white */
+}
+
+
+.phone-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px; /* Add some spacing between icon and number */
+}
+
+.phone-number {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #004A93;
+  overflow-wrap: break-word;
+}
+
+
+.frame-110 {
+  margin: 8px 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; /* Add cursor pointer to indicate it's clickable */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for background color and text color change */
+}
+
+.frame-110:hover {
+  background-color: #004A93; 
+  /* Change background color on hover */
+  /* Change text color on hover */
+}
+.frame-110:hover .contact-us{
+  color: #FFFFFF;
+}
+.frame-110:hover .vector-292{
+  filter:invert(100%)
+}
+.fluentform-24-filled {
+  margin: 1px 12px 1px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  box-sizing: border-box;
+}
+
+.vector-292 {
+  width: 18px;
+  height: 18px;
+}
+
+.contact-us {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #00529B;
+}
+
+
+
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.sign-in {
+  border-radius: 6px;
+  border: 1px solid #004A93;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 6px 15.3px 6px 15px;
+  box-sizing: border-box;
+  background-color: transparent; /* Set initial background color */
+  color: #004A93; /* Set initial text color */
+  cursor: pointer; /* Add pointer cursor */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for color change */
+}
+
+.sign-in:hover {
+  background-color: #004A93; /* Change background color on hover */
+  color: #FFFFFF; /* Change text color on hover */
+}
+
+.sign-in-327 {
+  overflow-wrap: break-word;
+  font-family: var(--button-fs-0-font-family, 'Titillium Web');
+  font-weight: var(--button-fs-0-font-weight, 700);
+  font-size: var(--button-fs-0-font-size, 16px);
+  line-height: var(--button-fs-0-line-height, 1.4);
+}
+
+.container-408 {
+  background: url('./images/catalogPageCollage1.png') 50% / cover no-repeat;
+  position: relative;
+  width: 100vw;
+  height: 700px;
+  
+}
+.rectangle-1268 {
+  background: linear-gradient(90deg, rgba(2, 106, 207, 0.85) 9.5%, rgba(217, 217, 217, 0) 95.1%);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 100%;
+}
+.individual-courses {
+  position: absolute;
+  left: 151px;
+  top: 223px;
+  display:inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.563;
+  color: #FFFFFF;
+}
+.your-education-with-zonis-diverse-courses {
+  position: absolute;
+  left: 151px; /* X coordinate */
+  top: 320px; /* Y coordinate */
+  width: 429px; /* Width */
+  height: 226px;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.146;
+  color: #FFFFFF;
+}
+.primary-large-enabled {
+  border: none; /* Remove default button border */
+  border-radius: 18px;
+  background: #FFD700;
+  position: absolute;
+  left: 151px; /* Adjusted position X */
+  top: 510px; /* Adjusted position Y */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 175px; /* Adjusted width */
+  height: 36px; /* Adjusted height */
+  box-sizing: border-box;
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.primary-large-enabled:hover {
+  background: #FBC02D;
+  transform: scale(1.1) ;
+  
+   /* Change background color on hover */
+}
+
+.search {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 2.364;
+  color: #004A93;
+  padding: 8px 0; /* Adjusted padding */
+}
+
+
+  
+  .group-34245 {
+    position: relative;
+    margin-left: 51px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 1389px;
+    box-sizing: border-box;
+  }
+  .container-397 {
+    border-radius: 137px 0 0 0;
+    background: #F0F7FF;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 493px 335.4px 44px 0;
+    width: 880px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .t354 {
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 35px;
+    text-decoration-line: underline;
+    line-height: 1.4;
+    color: #004A93;
+  }
+  .group-34173 {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    translate: 0 -50%;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .group-34219 {
+    position: relative;
+    margin-right: 85px;
+    padding: 94px 36px 26px 36px;
+    width: 526px;
+    height: 526px;
+    box-sizing: border-box;
+  }
+  .container-406 {
+    border-radius: 203px;
+    background: #FF6D42;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 92px 0.2px 79px 0.2px;
+    width: 406px;
+    height: 406px;
+    box-sizing: border-box;
+  }
+  .rectangle-111 {
+    border-radius: 40px 40px 67px 0px;
+    background: #FFD700;
+    width: 263.8px;
+    height: 234.9px;
+  }
+  .mask-group-358 {
+    border-radius: 263px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 216px;
+    height: 100%;
+    box-sizing: border-box;
+  }
+.call-us-now-image-1 {
+    background: url('./images/callUsNowImage1.png') 50% / cover no-repeat;
+    position: absolute;
+    right: 30px;
+    bottom: -70px;
+    overflow: visible;
+    width: 450px;
+    height: 600px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 30%;
+    z-index: index 1;;
+  }
+  .layer {
+  position: absolute; /* Change from relative to absolute */
+  left: 300px; /* Position X */
+  top: 155px; /* Position Y */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 78px;
+  height: 93px;
+  box-sizing: border-box;
+  
+}
+
+.rectangle {
+  
+  width: 78px; /* Adjusted to fill the container width */
+  height: 93px; /* Adjusted to fill the container height */
+}
+.img
+{
+
+  width: 78px; /* Adjusted to fill the container width */
+  height: 93px;
+
+}
+
+.mask-group-358 {
+    border-radius: 263px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 216px;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  .container-391 {
+    margin: 36px 0 85px 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .want-to-know-which-program-is-right-for-you {
+    margin-bottom: 7px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.233;
+    color: #004A93;
+  }
+  .group-34170 {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 21px;
+    background: #FFD700;
+    position: relative;
+    margin-bottom: 63.5px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    padding: 10px 23.2px 10px 26.3px;
+    width: fit-content;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .tablerclick {
+    margin: 8.3px 16.3px 9.3px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 25.5px;
+    height: 25.5px;
+    box-sizing: border-box;
+    border: none; /* Remove default button border */
+    background: transparent; /* Make button background transparent */
+    transition: transform 0.3s ease;
+  }
+  
+  
+  
+  .vector-355 {
+    width: 25.5px;
+    height: 25.5px;
+  }
+  
+  .click-here-now {
+    opacity: 0.9;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.7;
+    color: #004A93;
+  }
+  
+  .group-34170:hover {
+    background: #fcb900;
+    transform: scale(1.1); /* Scale up the button on hover */
+    cursor: pointer; /* Change background color on hover */
+  }
+  
+  
+  .still-have-questions {
+    margin: 0 4px 0.5px 4px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.4;
+    color: #004A93;
+  }
+  .our-admissions-team-is-here-to-help {
+    margin: 0 6px 30px 6px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.03;
+    color: #004A93;
+  }
+  .group-34169 {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 21px;
+    background: #FFD700;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 23.2px;
+    width: 289px;
+    box-sizing: border-box;
+    border: none; /* Remove default button border */
+    cursor: pointer;
+     /* Make button background transparent */
+    transition: transform 0.3s ease;
+  }
+  
+  .group-34169:hover {
+    background: #fcb900;
+    transform: scale(1.1); /* Scale up the button on hover */
+    cursor: pointer; /* Change background color on hover */
+  }
+  
+  .tdesigncall-1 {
+    margin-right: 12px;
+  }
+  
+  .vector-357 {
+    width: 25.6px;
+    height: 25.6px;
+  }
+  
+  .call-now {
+    opacity: 0.9;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.7;
+    color: #004A93;
+  }
+  
+  
